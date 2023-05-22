@@ -34,16 +34,16 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/wss/assets/_...404_-9f14a250.js"
+    "/wss/assets/_...404_-8f11ae26.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Counter.css": [
-    "/wss/assets/index-163975a1.js",
+    "/wss/assets/index-614aace0.js",
     "/wss/assets/index-fdb6b3cf.css"
   ],
   "src/components/Counter.tsx": [
-    "/wss/assets/index-163975a1.js",
+    "/wss/assets/index-614aace0.js",
     "/wss/assets/index-fdb6b3cf.css"
   ],
   "src/entry-client.tsx": [
@@ -53,10 +53,10 @@
   "src/root.tsx": [
   ],
   "src/routes/[...404].tsx": [
-    "/wss/assets/_...404_-9f14a250.js"
+    "/wss/assets/_...404_-8f11ae26.js"
   ],
   "src/routes/index.tsx": [
-    "/wss/assets/index-163975a1.js",
+    "/wss/assets/index-614aace0.js",
     "/wss/assets/index-fdb6b3cf.css"
   ]
 }
