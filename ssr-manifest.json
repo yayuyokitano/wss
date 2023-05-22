@@ -68,19 +68,11 @@
     "/wss/assets/site-dark-61e779a9.jpg"
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/wss/assets/_...404_-5caf5804.js"
+    "/wss/assets/_...404_-34bd0b40.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
     "/wss/assets/site-light-b629c344.jpg",
     "/wss/assets/site-dark-61e779a9.jpg"
-  ],
-  "src/components/Counter.css": [
-    "/wss/assets/index-1a54b34a.js",
-    "/wss/assets/index-fdb6b3cf.css"
-  ],
-  "src/components/Counter.tsx": [
-    "/wss/assets/index-1a54b34a.js",
-    "/wss/assets/index-fdb6b3cf.css"
   ],
   "src/components/theme/themes.scss": [
     "/wss/assets/site-light-b629c344.jpg",
@@ -103,10 +95,9 @@
     "/wss/assets/site-dark-61e779a9.jpg"
   ],
   "src/routes/[...404].tsx": [
-    "/wss/assets/_...404_-5caf5804.js"
+    "/wss/assets/_...404_-34bd0b40.js"
   ],
   "src/routes/index.tsx": [
-    "/wss/assets/index-1a54b34a.js",
-    "/wss/assets/index-fdb6b3cf.css"
+    "/wss/assets/index-38fc8ec9.js"
   ]
 }

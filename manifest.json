@@ -23,27 +23,20 @@
       "src/routes/[...404].tsx",
       "src/routes/index.tsx"
     ],
-    "file": "assets/entry-client-49e5a322.js",
+    "file": "assets/entry-client-2c720588.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-5caf5804.js",
+    "file": "assets/_...404_-34bd0b40.js",
     "imports": [
       "src/entry-client.tsx"
     ],
     "isDynamicEntry": true,
     "src": "src/routes/[...404].tsx"
   },
-  "src/routes/index.css": {
-    "file": "assets/index-fdb6b3cf.css",
-    "src": "src/routes/index.css"
-  },
   "src/routes/index.tsx": {
-    "css": [
-      "assets/index-fdb6b3cf.css"
-    ],
-    "file": "assets/index-1a54b34a.js",
+    "file": "assets/index-38fc8ec9.js",
     "imports": [
       "src/entry-client.tsx"
     ],

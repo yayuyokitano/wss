@@ -1,0 +1,1 @@
+import{g as n,a,i,c as o,T as s,t as b}from"./entry-client-2c720588.js";const c=b("<main><!#><!/><h1>Web Scrobbler");function u(){return(()=>{const e=n(c),r=e.firstChild,[t,l]=a(r.nextSibling);return t.nextSibling,i(e,o(s,{children:"Web Scrobbler — Scrobble music all around the web!"}),t,l),e})()}export{u as default};

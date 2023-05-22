@@ -2,11 +2,11 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/wss/assets/_...404_-5caf5804.js"
+      "href": "/wss/assets/_...404_-34bd0b40.js"
     },
     {
       "type": "script",
-      "href": "/wss/assets/entry-client-49e5a322.js"
+      "href": "/wss/assets/entry-client-2c720588.js"
     },
     {
       "type": "style",
@@ -16,25 +16,21 @@
   "/": [
     {
       "type": "script",
-      "href": "/wss/assets/index-1a54b34a.js"
+      "href": "/wss/assets/index-38fc8ec9.js"
     },
     {
       "type": "script",
-      "href": "/wss/assets/entry-client-49e5a322.js"
+      "href": "/wss/assets/entry-client-2c720588.js"
     },
     {
       "type": "style",
       "href": "/wss/assets/entry-client-fa2bce5e.css"
-    },
-    {
-      "type": "style",
-      "href": "/wss/assets/index-fdb6b3cf.css"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/wss/assets/entry-client-49e5a322.js"
+      "href": "/wss/assets/entry-client-2c720588.js"
     },
     {
       "type": "style",
