@@ -1,0 +1,14 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: var(--background);
+	color: var(--text);
+}
+
+a {
+	color: var(--last-fm);
+	text-decoration: none;
+}

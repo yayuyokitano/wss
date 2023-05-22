@@ -12,7 +12,8 @@ import {
   Scripts,
   Title,
 } from "solid-start";
-import "./root.css";
+import "./global.scss";
+import "./components/theme/themes.scss";
 
 export default function Root() {
   return (
