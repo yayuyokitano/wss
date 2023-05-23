@@ -1,0 +1,106 @@
+.header {
+	$bggradient: radial-gradient(circle, #fd2d45, #fe4a5d);
+	$purple: rgba(50, 44, 112, 0.33);
+	$purpleinvis: rgba(50, 44, 112, 0);
+	$orange: rgba(235, 116, 56, 0.89);
+	$orangeinvis: rgba(235, 116, 56, 0);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: $bggradient;
+	position: relative;
+	text-align: center;
+
+	&:after {
+		position: absolute;
+		content: '';
+		inset: 0;
+		background: linear-gradient(
+			120deg,
+			$purple,
+			$purpleinvis,
+			$orangeinvis,
+			$orange
+		);
+	}
+
+	.topIcon {
+		$size: min(20vw, 40vh);
+		$shadowSize: min(0.5vw, 1vh);
+		width: $size;
+		height: $size;
+		filter: drop-shadow(0 $shadowSize $shadowSize rgba(0, 0, 0, 0.5));
+	}
+
+	h1 {
+		font-size: 3.5rem;
+		font-weight: 700;
+		margin-top: 2rem;
+		margin-bottom: 0.25rem;
+		z-index: 1;
+		max-width: 90%;
+	}
+
+	h2 {
+		font-size: 2rem;
+		font-weight: 600;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+		z-index: 1;
+		max-width: 90%;
+	}
+
+	p {
+		font-size: 1.5rem;
+		z-index: 1;
+		max-width: 90%;
+	}
+
+	.headerText,
+	.smallShadowText,
+	.shadowText {
+		color: #fff;
+	}
+	
+	.shadowText {
+		filter: drop-shadow(0 3.3px 2px rgba(0, 0, 0, 0.3));
+	}
+	.smallShadowText {
+		filter: drop-shadow(0 1.65px 1px rgba(0, 0, 0, 0.3));
+	}
+
+	.browserIcons {
+		display: flex;
+		gap: 1rem;
+		max-width: 90%;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		.iconGroup {
+			display: flex;
+			gap: 1rem;
+			flex-wrap: nowrap;
+		}
+
+		.browserIcon {
+			position: relative;
+			z-index: 1;
+			width: 5rem;
+			height: 5rem;
+			transition: transform 0.2s ease-in-out;
+			filter: drop-shadow(0 3.3px 2px rgba(0, 0, 0, 0.3));
+	
+			&:hover {
+				transform: scale(1.2);
+			}
+
+			&:last-child {
+				flex-wrap: nowrap;
+			}
+		}
+	}
+	
+}
