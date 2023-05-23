@@ -4,7 +4,7 @@ import { A } from "solid-start";
 
 export default function Top() {
 	return (
-		<header class={styles.header}>
+		<header class={styles.header} id="header">
 			<WSIcon class={styles.topIcon} />
 			<h1 class={styles.shadowText}>Web Scrobbler</h1>
 			<h2 class={styles.smallShadowText}>Scrobble music all around the web!</h2>

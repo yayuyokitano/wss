@@ -1,5 +1,5 @@
 // @refresh reload
-import { Suspense } from "solid-js";
+import { Suspense, onMount } from "solid-js";
 import {
   Body,
   ErrorBoundary,
@@ -15,7 +15,22 @@ import {
 import "./global.scss";
 import "./components/theme/themes.scss";
 
+function getElementScrollScale(){
+	return window.scrollY / (document.body.scrollHeight - window.innerHeight)
+}
+
 export default function Root() {
+
+	onMount(() => {
+		const setScroll = () => {
+			const scroll = getElementScrollScale();
+			document.body.style.setProperty("--scrollPct", scroll.toString());
+		}
+		setScroll();
+		document.addEventListener("scroll", setScroll);
+		return () => document.removeEventListener("scroll", setScroll);
+	})
+
   return (
     <Html lang="en">
       <Head>

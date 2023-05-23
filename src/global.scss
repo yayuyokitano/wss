@@ -4,8 +4,30 @@ body {
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: var(--background);
 	color: var(--text);
+	position: relative;
+
+	&:before {
+		position: absolute;
+		content: '';
+		inset: 0;
+		z-index: -2;
+
+		background: var(--site-image);
+		background-size: auto 200vh;
+		background-position: 50% calc(var(--scrollPct) * 100%);
+		filter: blur(15px);
+		opacity: 0.2;
+	}
+	
+	main {
+		overflow: hidden;
+	}
+
+	section {
+		max-width: 80%;
+		margin: 3rem auto;
+	}
 }
 
 a {
