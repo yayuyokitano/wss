@@ -110,7 +110,8 @@
 
 	.intro {
 		font-size: 1.4rem;
-		margin: 5rem 0;
+		margin-bottom: 5rem;
+		margin-top: 3rem;
 	}
 
 	h2 {
@@ -120,18 +121,8 @@
 	ol {
 		list-style: none;
 		padding: 0;
-		text-align: left;
 		display: flex;
 		justify-content: space-between;
-
-		opacity: 0;
-		transform: translateY(-5rem);
-		transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-
-		&.active {
-			opacity: 1;
-			transform: translateY(0);
-		}
 
 		@media screen and (max-width: 1100px) {
 			flex-direction: column;
@@ -141,14 +132,48 @@
 		li {
 			gap: 1rem;
 			flex-basis: 30%;
-			background-color: var(--last-fm-bg);
+			background-color: var(--last-fm-bg-weak);
 			padding: 1rem;
 			box-sizing: border-box;
-			border-radius: 1rem;
-			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+			border-radius: 2rem;
+			box-shadow: var(--neuomorphic-bottom), var(--neuomorphic-top);
 
 			h3 {
 				font-size: 2rem;
+				margin: 0;
+			}
+
+			p {
+				font-size: 1.1rem;
+				font-weight: 300;
+			}
+		}
+	}
+}
+
+.features {
+	background-color: var(--background-site);
+	box-shadow: 0 1rem 1.5rem rgba(0, 0, 0, 0.5);
+
+	ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		padding: 0;
+		margin: 0;
+
+		li {
+			flex: 0 0 45%;
+			text-align: center;
+			padding: 1rem;
+			box-sizing: border-box;
+			margin-bottom: 2rem;
+			border-radius: 2rem;
+			box-shadow: var(--neuomorphic-bottom), var(--neuomorphic-top);
+
+			h3 {
+				font-size: 1.75rem;
 				margin: 0;
 			}
 

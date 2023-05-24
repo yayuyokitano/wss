@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	width: 100%;
 	color: var(--text);
+	background-color: var(--background);
 	position: relative;
 
 	&:before {
@@ -17,7 +18,7 @@ body {
 		background-size: auto 200vh;
 		background-position: 50% calc(var(--scrollPct) * 100%);
 		filter: blur(15px);
-		opacity: 0.15;
+		opacity: 0.2;
 	}
 	
 	main {
@@ -25,12 +26,20 @@ body {
 	}
 
 	section {
-		max-width: 80%;
-		margin: 3rem auto;
+		padding: 2rem 10%;
+
+		&>:first-child {
+			margin-top: 0;
+		}
 	}
 }
 
 a {
 	color: var(--last-fm);
 	text-decoration: none;
+}
+
+h2 {
+	font-size: 3rem;
+	text-align: center;
 }
