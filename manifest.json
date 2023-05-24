@@ -8,7 +8,7 @@
     "src": "src/assets/images/site-light.jpg"
   },
   "src/entry-client.css": {
-    "file": "assets/entry-client-5a475cd7.css",
+    "file": "assets/entry-client-4f305bc6.css",
     "src": "src/entry-client.css"
   },
   "src/entry-client.tsx": {
@@ -17,18 +17,18 @@
       "assets/site-dark-61e779a9.jpg"
     ],
     "css": [
-      "assets/entry-client-5a475cd7.css"
+      "assets/entry-client-4f305bc6.css"
     ],
     "dynamicImports": [
       "src/routes/[...404].tsx",
       "src/routes/index.tsx"
     ],
-    "file": "assets/entry-client-842a3e3c.js",
+    "file": "assets/entry-client-3f8ae234.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-d6eb91e1.js",
+    "file": "assets/_...404_-132d88a0.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -36,14 +36,14 @@
     "src": "src/routes/[...404].tsx"
   },
   "src/routes/index.css": {
-    "file": "assets/index-d8cf4c2b.css",
+    "file": "assets/index-3e0a716b.css",
     "src": "src/routes/index.css"
   },
   "src/routes/index.tsx": {
     "css": [
-      "assets/index-d8cf4c2b.css"
+      "assets/index-3e0a716b.css"
     ],
-    "file": "assets/index-2661583f.js",
+    "file": "assets/index-b7a26c2d.js",
     "imports": [
       "src/entry-client.tsx"
     ],
