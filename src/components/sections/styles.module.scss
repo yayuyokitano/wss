@@ -120,5 +120,42 @@
 	ol {
 		list-style: none;
 		padding: 0;
+		text-align: left;
+		display: flex;
+		justify-content: space-between;
+
+		opacity: 0;
+		transform: translateY(-5rem);
+		transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+
+		&.active {
+			opacity: 1;
+			transform: translateY(0);
+		}
+
+		@media screen and (max-width: 1100px) {
+			flex-direction: column;
+			gap: 2rem;
+		}
+
+		li {
+			gap: 1rem;
+			flex-basis: 30%;
+			background-color: var(--last-fm-bg);
+			padding: 1rem;
+			box-sizing: border-box;
+			border-radius: 1rem;
+			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+
+			h3 {
+				font-size: 2rem;
+				margin: 0;
+			}
+
+			p {
+				font-size: 1.1rem;
+				font-weight: 300;
+			}
+		}
 	}
 }
