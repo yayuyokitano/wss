@@ -1,8 +1,8 @@
 import styles from "./styles.module.scss";
-import { Resource, Show } from "solid-js";
+import { Accessor } from "solid-js";
 
 export default function Features(props: {
-	connectors: Resource<string[]>
+	connectors: Accessor<string[] | undefined>
 }) {
 	return (
 		<section class={styles.features}>
@@ -31,7 +31,7 @@ export default function Features(props: {
 				</li>
 				<li>
 					<h3>Many Websites Supported</h3>
-					<p>We currently support scrobbling to {!props.connectors.loading && props.connectors()?.length || "many"} different websites with more being added with each release.</p>
+					<p>We currently support scrobbling to {props.connectors()?.length || "many"} different websites with more being added with each release.</p>
 				</li>
 				<li>
 					<h3>Powered by WebExtensions</h3>

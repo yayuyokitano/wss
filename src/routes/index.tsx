@@ -1,11 +1,15 @@
-import { createResource } from "solid-js";
+import { createSignal, onMount } from "solid-js";
 import { Title } from "solid-start";
 import Features from "~/components/sections/features";
 import Starter from "~/components/sections/starter";
 import Top from "~/components/sections/top";
 
 export default function Home() {
-	const [connectors] = createResource(getConnectors);
+	const [connectors, setConnectors] = createSignal<string[]>();
+	onMount(async() => {
+		const connectors = await getConnectors();
+		setConnectors(connectors);
+	})
   return (
     <main>
       <Title>Web Scrobbler — Scrobble music all around the web!</Title>
