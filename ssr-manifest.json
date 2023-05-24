@@ -68,39 +68,43 @@
     "/wss/assets/site-dark-61e779a9.jpg"
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/wss/assets/_...404_-132d88a0.js"
+    "/wss/assets/_...404_-bf4eb409.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
     "/wss/assets/site-light-b629c344.jpg",
     "/wss/assets/site-dark-61e779a9.jpg"
   ],
   "src/assets/icons.tsx": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ],
   "src/components/sections/connectors.tsx": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ],
   "src/components/sections/contributing.tsx": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ],
   "src/components/sections/features.tsx": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
+  ],
+  "src/components/sections/footer.tsx": [
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ],
   "src/components/sections/starter.tsx": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ],
   "src/components/sections/styles.module.scss?used": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ],
   "src/components/sections/top.tsx": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ],
   "src/components/theme/themes.scss": [
     "/wss/assets/site-light-b629c344.jpg",
@@ -123,10 +127,10 @@
     "/wss/assets/site-dark-61e779a9.jpg"
   ],
   "src/routes/[...404].tsx": [
-    "/wss/assets/_...404_-132d88a0.js"
+    "/wss/assets/_...404_-bf4eb409.js"
   ],
   "src/routes/index.tsx": [
-    "/wss/assets/index-b7a26c2d.js",
-    "/wss/assets/index-3e0a716b.css"
+    "/wss/assets/index-e26f732a.js",
+    "/wss/assets/index-07187ce8.css"
   ]
 }
