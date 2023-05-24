@@ -3,6 +3,7 @@ import { Title } from "solid-start";
 import Connectors from "~/components/sections/connectors";
 import Contributing from "~/components/sections/contributing";
 import Features from "~/components/sections/features";
+import Footer from "~/components/sections/footer";
 import Starter from "~/components/sections/starter";
 import Top from "~/components/sections/top";
 
@@ -20,6 +21,7 @@ export default function Home() {
 			<Features connectors={connectors} />
 			<Connectors connectors={connectors} />
 			<Contributing />
+			<Footer />
     </main>
   );
 }

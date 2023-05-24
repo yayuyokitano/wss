@@ -1,4 +1,5 @@
-.header {
+.header,
+.footer {
 	$bggradient: radial-gradient(circle, #fd2d45, #fe4a5d);
 	$purple: rgba(50, 44, 112, 0.33);
 	$purpleinvis: rgba(50, 44, 112, 0);
@@ -9,11 +10,9 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
 	background: $bggradient;
 	position: relative;
 	text-align: center;
-	box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
 
 	&:after {
 		position: absolute;
@@ -73,7 +72,7 @@
 		filter: drop-shadow(0 1.65px 1px rgba(0, 0, 0, 0.3));
 	}
 
-	.browserIcons {
+	.icons {
 		display: flex;
 		gap: 1rem;
 		max-width: 90%;
@@ -86,7 +85,7 @@
 			flex-wrap: nowrap;
 		}
 
-		.browserIcon {
+		.icon {
 			position: relative;
 			z-index: 1;
 			width: 5rem;
@@ -102,6 +101,44 @@
 				flex-wrap: nowrap;
 			}
 		}
+	}
+}
+
+.header {
+	height: 100vh;
+	box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+	box-shadow: 0 -0.5rem 1.5rem rgba(0, 0, 0, 0.5);
+	color: #fff;
+	gap: 2rem;
+
+	.footerContent {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		text-align: center;
+		gap: 4rem;
+		font-size: 1.1rem;
+		line-height: 1.5;
+		flex-wrap: wrap;
+
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			h3 {
+				font-size: 1.7rem;
+			}
+		}
+	}
+
+	a {
+		color: #fff;
+		position: relative;
+		z-index: 1;
 	}
 }
 

@@ -25,7 +25,8 @@ body {
 		overflow: hidden;
 	}
 
-	section {
+	section,
+	footer {
 		padding: 2rem 10%;
 
 		&>:first-child {
