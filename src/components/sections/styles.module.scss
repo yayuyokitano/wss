@@ -238,6 +238,7 @@
 		flex-wrap: wrap;
 		margin: 0;
 		padding: 0;
+		padding-bottom: 2rem;
 
 		&:not(.expandedList) {
 			max-height: 25vh;
