@@ -5,6 +5,6 @@ import { defineConfig } from "vite";
 export default defineConfig({
 	base: "/wss",
   plugins: [
-		solid({ adapter: staticAdapter(), ssr: false }),
+		solid({ adapter: staticAdapter() }),
 	],
 });
