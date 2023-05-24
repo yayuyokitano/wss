@@ -1,6 +1,7 @@
 import { createSignal, onMount } from "solid-js";
 import { Title } from "solid-start";
 import Connectors from "~/components/sections/connectors";
+import Contributing from "~/components/sections/contributing";
 import Features from "~/components/sections/features";
 import Starter from "~/components/sections/starter";
 import Top from "~/components/sections/top";
@@ -18,6 +19,7 @@ export default function Home() {
 			<Starter />
 			<Features connectors={connectors} />
 			<Connectors connectors={connectors} />
+			<Contributing />
     </main>
   );
 }
