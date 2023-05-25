@@ -8,18 +8,18 @@ export default function Starter() {
 			<ol>
 				<li>
 					<h3>Install the extension</h3>
-					<p>Download and install the extension for your browser. You can use the download buttons 
+					<p>Download and install the extension for your browser. You can use the download buttons
 						<a href="#header">above</a>
 					.</p>
 				</li>
 				<li>
 					<h3>Sign in to your accounts</h3>
-					<p>Open the extension options, and go to the "Accounts" section, then sign in to a scrobbling service you want to use.</p>
+					<p>Open the extension options, and go to the &quot;Accounts&quot; section, then sign in to a scrobbling service you want to use.</p>
 				</li>
 				<li>
 					<h3>Start listening to music!</h3>
-					<p>Just open any of websites supported (e.g. 
-						<a href="https://open.spotify.com/" target="_blank" rel="noopener noreferer">Spotify</a>
+					<p>Just open any of websites supported (e.g.
+						<a href="https://open.spotify.com/" target="_blank" rel="noopener noreferrer">Spotify</a>
 					) and start listening to music.</p>
 				</li>
 			</ol>
